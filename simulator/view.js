@@ -2,8 +2,8 @@ export class AppView {
     constructor() {
         this.filters = document.getElementById('sinner-filters');
         this.picker = document.getElementById('picker-grid');
-        this.mainList = document.getElementById('main-deck');
-        this.subList = document.getElementById('sub-deck');
+        this.mainList = document.getElementById('main-deck-list');
+        this.subList = document.getElementById('sub-deck-list');
     }
 
     render(identities, deck, activeSinner, sinners) {

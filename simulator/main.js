@@ -27,7 +27,7 @@ async function init() {
         }
     });
 
-    document.getElementById('search').addEventListener('input', e => {
+    document.getElementById('search-input').addEventListener('input', e => {
         currentSearch = e.target.value;
         update();
     });
