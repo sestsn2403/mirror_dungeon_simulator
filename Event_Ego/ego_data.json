@@ -1,0 +1,5 @@
+[
+  { "id": 2001, "sinner": "이상", "name": "오감도", "grade": "ZAYIN", "keywords": ["파열", "침잠"], "img": "../Event_Ego/assets/ego/이상_오감도.png", "desc": "소모 자원: 나태 1, 우울 3\n정신력 소모: 15\n효과: 대상의 속도 감소" },
+  { "id": 2008, "sinner": "이스마엘", "name": "홍염살", "grade": "HE", "keywords": ["화상", "타격"], "img": "../Event_Ego/assets/ego/이마_홍염살.png", "desc": "소모 자원: 분노 4, 색욕 2\n정신력 소모: 20\n효과: 화상 위력 10 부여" },
+  { "id": 2009, "sinner": "로쟈", "name": "던져진 것", "grade": "TETH", "keywords": ["침잠", "타격"], "img": "../Event_Ego/assets/ego/로쟈_던져진것.png", "desc": "소모 자원: 우울 2, 오만 2\n정신력 소모: 10\n효과: 침잠 횟수 증가" }
+]
