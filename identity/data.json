@@ -1,0 +1,1472 @@
+[
+    {
+        "id": 1,
+        "sinner": "이상",
+        "name": "LCB 수감자 이상",
+        "affiliation": "LCB",
+        "keywords": [
+            "침잠"
+        ],
+        "img": "/asset/1.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "쳐내기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+7",
+                    "weight": 1,
+                    "keyword": ["침잠"],
+                    "des": "",
+                    "level": "60(0)"
+                },
+                {
+                    "name": "밀어찌르기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["침잠"],
+                    "des": "",
+                    "level": "60(0)"
+                },
+                {
+                    "name": "연격",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 6,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": ["침잠", "취약"],
+                    "des": "",
+                    "level": "60(0)"
+                }
+            ],
+            "passive_skill": {
+                "name": "정보전달",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["피해량 증가"],
+                "des": "",
+                "resources_type": "공명"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "정보중화",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "가드",
+                "crime": "우울",
+                "type": "가드",
+                "level": "58(-2)",
+                "default_power": "7",
+                "coin_power": "+3",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 2,
+        "sinner": "이상",
+        "name": "남부 세븐 협회 6과 이상",
+        "affiliation": "세븐 협회",
+        "keywords": [
+            "파열"
+        ],
+        "img": "/asset/2.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "플레쉬",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "우울",
+                    "default_power": 5,
+                    "coin_power": "+7",
+                    "weight": 1,
+                    "keyword": ["파열"],
+                    "des": "",
+                    "level": "60(0)"
+                },
+                {
+                    "name": "리포스트",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["파열", "취약", "마비"],
+                    "des": "",
+                    "level": "60(0)"
+                },
+                {
+                    "name": "물리네",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 5,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["관통 취약"],
+                    "des": "",
+                    "level": "60(0)"
+                }
+            ],
+            "passive_skill": {
+                "name": "관찰",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "공명"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "분석",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "가드",
+                "crime": "탐식",
+                "type": "가드",
+                "level": "62(+2)",
+                "default_power": "9",
+                "coin_power": "+3",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 3,
+        "sinner": "이상",
+        "name": "어금니 사무소 해결사 이상",
+        "affiliation": "어금니 사무소",
+        "keywords": [
+            "진동"
+        ],
+        "img": "/asset/3.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "침착하게",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "색욕",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["진동"],
+                    "des": "",
+                    "level": "58(-2)"
+                },
+                {
+                    "name": "도박수",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+12",
+                    "weight": 1,
+                    "keyword": ["진동", "버림"],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "어금니 갈기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["진동", "버림", "방어 레벨 감소"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "이럴 때 일수록…",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "벌려진 일 수습",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "가드",
+                "crime": "나태",
+                "type": "가드",
+                "level": "60(0)",
+                "default_power": "10",
+                "coin_power": "+5",
+                "keyword": ["버림"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 4,
+        "sinner": "이상",
+        "name": "피쿼드호 일등 항해사 이상",
+        "affiliation": "피쿼드호",
+        "keywords": [
+            "호흡",
+            "출혈"
+        ],
+        "img": "/asset/4.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "후벼파기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["호흡", "속박", "출혈"],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "쑤시고 쑤시기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["호흡", "출혈"],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "급습",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 4,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": ["호흡", "출혈"],
+                    "des": "",
+                    "level": "62(+2)"
+                }
+            ],
+            "passive_skill": {
+                "name": "일등 항해사의 작살",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "일등 항해사의 노련함",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "회피",
+                "crime": "오만",
+                "type": "회피",
+                "level": "57(-3)",
+                "default_power": "3",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 5,
+        "sinner": "이상",
+        "name": "남부 디에치 협회 4과 이상",
+        "affiliation": "디에치 협회",
+        "keywords": [
+            "침잠"
+        ],
+        "img": "/asset/5.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "지식 소모",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["탐구한 지식", "침잠", "버림"],
+                    "des": "",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "잠궈닫기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["탐구한 지식", "침잠", "버림", "도발치"],
+                    "des": "",
+                    "level": "59(-1)"
+                },
+                {
+                    "name": "지식의 가호",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": ["탐구한 지식", "침잠", "도발치"],
+                    "des": "",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "가라앉는 지식",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 3
+                    }
+                ],
+                "keyword": ["침잠"],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "반복 지식",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "탐구 몰입",
+                "crime": "나태",
+                "type": "가드",
+                "level": "63(+3)",
+                "default_power": "12",
+                "coin_power": "+6",
+                "keyword": ["버림", "도발치"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 6,
+        "sinner": "이상",
+        "name": "LCE E.G.O::초롱 이상",
+        "affiliation": "LCE",
+        "keywords": [
+            "파열"
+        ],
+        "img": "/asset/6.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "E.G.O는 제식 장비라 할지라도\\",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["도발치", "파열", "파괴 불가 코인"],
+                    "des": "",
+                    "level": "60(0)"
+                },
+                {
+                    "name": "로보토미때의 E.G.O보다 환상체와의 감응 정도에 따라",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "관통",
+                    "crime": "질투",
+                    "default_power": 8,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": ["도발치", "파열", "파괴 불가 코인"],
+                    "des": "",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "본체의 특징을 더 유연하게 활용 가능하오",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "탐식",
+                    "default_power": 16,
+                    "coin_power": "-5",
+                    "weight": 1,
+                    "keyword": ["도발치", "파열", "미끼 요정", "속박"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "외형 또한 이전 L사의 E.G.O에 비해\\",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 3
+                    }
+                ],
+                "keyword": ["파열", "미끼 요정"],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "E.G.O가 붕괴될 때 거름과 같이 분해되오",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 5
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "다만 그 감응과 동기화 정도에 따라 잡아먹힐 수 있소",
+                "crime": "탐식",
+                "type": "반격",
+                "level": "65(+5)",
+                "default_power": "10",
+                "coin_power": "+5",
+                "keyword": ["도발치", "파열", "미끼 요정"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 7,
+        "sinner": "이상",
+        "name": "검계 살수 이상",
+        "affiliation": "검계",
+        "keywords": [
+            "호흡"
+        ],
+        "img": "/asset/7.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "격세",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "오만",
+                    "default_power": 6,
+                    "coin_power": "+7",
+                    "weight": 1,
+                    "keyword": ["호흡"],
+                    "des": "",
+                    "level": "65(+5)"
+                },
+                {
+                    "name": "두의틀기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "분노",
+                    "default_power": 7,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": ["호흡"],
+                    "des": "",
+                    "level": "65(+5)"
+                },
+                {
+                    "name": "이면찬자",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 8,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": ["호흡"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "냉정",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["호흡"],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "사사",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 3
+                    }
+                ],
+                "keyword": ["호흡"],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "반격",
+                "crime": "오만",
+                "type": "반격",
+                "level": "65(+5)",
+                "default_power": "10",
+                "coin_power": "+8",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 8,
+        "sinner": "이상",
+        "name": "개화 E.G.O::동백 이상",
+        "affiliation": "기술해방연합",
+        "keywords": [
+            "침잠",
+            "진동"
+        ],
+        "img": "/asset/8.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "움트는 봉우리",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 3,
+                    "coin_power": "+2",
+                    "weight": 1,
+                    "keyword": ["진동", "침잠"],
+                    "des": "",
+                    "level": "64(+4)"
+                },
+                {
+                    "name": "찰나의 꽃바람",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["진동", "침잠"],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "피를 머금은 향기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 6,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["진동", "침잠", "침잠쇄도"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "만개",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "알싸한 봄바람",
+                "resources": [
+                    {
+                        "name": "나태",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "흩날리는 잔향",
+                "crime": "나태",
+                "type": "회피",
+                "level": "58(-2)",
+                "default_power": "4",
+                "coin_power": "+10",
+                "keyword": ["침잠"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 9,
+        "sinner": "이상",
+        "name": "W사 3등급 정리 요원 이상",
+        "affiliation": "W사",
+        "keywords": [
+            "충전",
+            "파열"
+        ],
+        "img": "/asset/9.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "차원 긋기",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 5,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": ["충전", "파열"],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "에너지 순환",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+5",
+                    "weight": 1,
+                    "keyword": ["충전", "파열", "속박"],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "차원의 틈",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "우울",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["충전", "파열", "충전 역장", "차원 균열"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "비워낸 생각",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["충전", "신속", "충전 역장"],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "정리 시범 교육",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["충전", "파열"],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "텅 빈 차원",
+                "crime": "우울",
+                "type": "회피",
+                "level": "60(0)",
+                "default_power": "4",
+                "coin_power": "+10",
+                "keyword": ["충전", "파열"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 10,
+        "sinner": "이상",
+        "name": "약지 점묘파 스튜던트 이상",
+        "affiliation": "약지",
+        "keywords": [
+            "출혈",
+            "화상",
+            "진동",
+            "파열",
+            "침잠"
+        ],
+        "img": "/asset/10.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "덧칠",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "우울",
+                    "default_power": 2,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["화상", "출혈", "진동", "파열", "침잠"],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "혈점묘화",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "색욕",
+                    "default_power": 8,
+                    "coin_power": "+8",
+                    "weight": 1,
+                    "keyword": ["화상", "출혈", "진동", "파열", "침잠"],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "핏방울 채색",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["화상", "출혈", "진동", "파열", "침잠"],
+                    "des": "",
+                    "level": "63(+3)"
+                }
+            ],
+            "passive_skill": {
+                "name": "과제평가",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["공격 레벨 증가", "출혈"],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+
+                {
+                    "name": "혈점묘파"
+                }
+            ],
+            "support_passive": {
+                "name": "미학견습",
+                "resources": [
+                    {
+                        "name": "색욕",
+                        "count": 4
+                    }
+                ],
+                "keyword": ["출혈"],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "붓 털기",
+                "crime": "색욕",
+                "type": "가드",
+                "level": "61(+1)",
+                "default_power": "10",
+                "coin_power": "+4",
+                "keyword": ["출혈"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 11,
+        "sinner": "이상",
+        "name": "로보토미 E.G.O::엄숙한 애도 이상",
+        "affiliation": "로보토미",
+        "keywords": [
+            "침잠"
+        ],
+        "img": "/asset/11.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "떠난이에게 축하를",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": ["산나비·죽은나비", "침잠", "나비"],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "남은자에게 엄숙한 애도를",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": ["산나비·죽은나비", "침잠", "나비", "재장전"],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "이상으로 장례는 이상이오",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "나태",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": ["산나비·죽은나비", "침잠", "나비", "재장전"],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "쏘아라.쏘으리로다.",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 3
+                    }
+                ],
+                "keyword": ["산나비·죽은나비", "나비", "재장전", "신속"],
+                "des": "",
+                "resources_type": "공명"
+            },
+            "add_passive_skill": [
+
+                {
+                    "name": "죽어가는나비를본다."
+                }
+            ],
+            "support_passive": {
+                "name": "구원의 손",
+                "resources": [
+                    {
+                        "name": "우울",
+                        "count": 6
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "관에서나비가날아오리라",
+                "crime": "우울",
+                "type": "가드",
+                "level": "61(+1)",
+                "default_power": "10",
+                "coin_power": "+4",
+                "keyword": ["나비", "재장전"],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 12,
+        "sinner": "이상",
+        "name": "남부 리우 협회 3과 이상",
+        "affiliation": "리우 협회",
+        "keywords": [
+            "화상"
+        ],
+        "img": "/asset/12.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "염참",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "정면돌파",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "분노",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "검의 흐름",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "64(+4)"
+                }
+            ],
+            "passive_skill": {
+                "name": "내면의 열혈",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+                {
+                    "name": "",
+                    "des": "",
+                    "keyword": []
+                }
+            ],
+            "support_passive": {
+                "name": "리우 방진",
+                "resources": [
+                    {
+                        "name": "분노",
+                        "count": 3
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "염반",
+                "crime": "분노",
+                "type": "반격",
+                "level": "60(0)",
+                "default_power": "5",
+                "coin_power": "+3",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 13,
+        "sinner": "이상",
+        "name": "N사 E.G.O::흉탄 이상",
+        "affiliation": "N사",
+        "keywords": [
+            "출혈",
+            "호흡"
+        ],
+        "img": "/asset/13.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "헛점 파악",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "분노",
+                    "default_power": 5,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "꿰뚫으리라",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "관통",
+                    "crime": "색욕",
+                    "default_power": 4,
+                    "coin_power": "+6",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "대상 조정 사격",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+7",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "흉탄",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 6
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+
+                {
+                    "name": "휘발된 추억"
+                }
+            ],
+            "support_passive": {
+                "name": "대상 지정",
+                "resources": [
+                    {
+                        "name": "오만",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "공명"
+            },
+            "guard_skill": {
+                "name": "전방 지원",
+                "crime": "오만",
+                "type": "강화 반격",
+                "level": "62(+2)",
+                "default_power": "5",
+                "coin_power": "+7",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 14,
+        "sinner": "이상",
+        "name": "흑수 - 오 필두 이상",
+        "affiliation": "흑수",
+        "keywords": [
+            "파열",
+            "진동"
+        ],
+        "img": "/asset/14.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "베어 무너뜨리리",
+                    "coin": 1,
+                    "coin_type": "indestructible",
+                    "type": "참격",
+                    "crime": "나태",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "61(+1)"
+                },
+                {
+                    "name": "월도격 [月刀擊]",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "질투",
+                    "default_power": 4,
+                    "coin_power": "+5",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "선봉주파",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "흑풍마각월참 [黑風馬脚月斬]",
+                    "coin": 4,
+                    "coin_type": "indestructible",
+                    "type": "참격",
+                    "crime": "탐식",
+                    "default_power": 5,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "64(+4)"
+                }
+            ],
+            "passive_skill": {
+                "name": "흑풍마각 [黑風馬脚]",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 5
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": "보유"
+            },
+            "add_passive_skill": [
+
+                {
+                    "name": "구마지심 [拘馬之心]"
+                },
+                {
+                    "name": "필두선봉"
+                }
+            ],
+            "support_passive": {
+                "name": "검은 갑각이 살을 째고 돋아 날 지키리",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 4
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "돌진 전\\",
+                "crime": "탐식",
+                "type": "강화 방어",
+                "level": "62(+2)",
+                "default_power": "3",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    },
+    {
+        "id": 15,
+        "sinner": "이상",
+        "name": "거미집 검지 아비 이상",
+        "affiliation": "검지",
+        "keywords": [
+            "호흡",
+            "침잠",
+            "화상"
+        ],
+        "img": "/asset/15.jpg",
+        "skill": {
+            "skill": [
+                {
+                    "name": "얼어붙은 피를 삼백삼십 휘감아",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "타격",
+                    "crime": "탐식",
+                    "default_power": 3,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "62(+2)"
+                },
+                {
+                    "name": "소리 없이 손뼉 쳐 즐기고\\",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "관통",
+                    "crime": "오만",
+                    "default_power": 4,
+                    "coin_power": "+4",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "63(+3)"
+                },
+                {
+                    "name": "날 세워 칼을 웃거라\\",
+                    "coin": 1,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "우울",
+                    "default_power": 4,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "64(+4)"
+                },
+                {
+                    "name": "Furioso-Replica",
+                    "coin": 9,
+                    "coin_type": "basic",
+                    "type": "참격",
+                    "crime": "분노",
+                    "default_power": 3,
+                    "coin_power": "+3",
+                    "weight": 1,
+                    "keyword": [],
+                    "des": "",
+                    "level": "65(+5)"
+                }
+            ],
+            "passive_skill": {
+                "name": "모조된 삶",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 1
+                    },
+                    {
+                        "name": "우울",
+                        "count": 1
+                    },
+                    {
+                        "name": "오만",
+                        "count": 1
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resources_type": ""
+            },
+            "add_passive_skill": [
+
+                {
+                    "name": "단말기로 전해진 지령"
+                },
+                {
+                    "name": "신탁 대행자 / 해금"
+                },
+                {
+                    "name": "검지 아비"
+                },
+                {
+                    "name": "신탁 단말기 [카두세우스]"
+                }
+            ],
+            "support_passive": {
+                "name": "신의 가호",
+                "resources": [
+                    {
+                        "name": "탐식",
+                        "count": 1
+                    },
+                    {
+                        "name": "우울",
+                        "count": 1
+                    },
+                    {
+                        "name": "오만",
+                        "count": 1
+                    }
+                ],
+                "keyword": [],
+                "des": "",
+                "resource_type": "보유"
+            },
+            "guard_skill": {
+                "name": "예측할 수 없는 변덕으로",
+                "crime": "우울",
+                "type": "회피",
+                "level": "62(+2)",
+                "default_power": "4",
+                "coin_power": "+10",
+                "keyword": [],
+                "des": ""
+            }
+        }
+    }
+]
