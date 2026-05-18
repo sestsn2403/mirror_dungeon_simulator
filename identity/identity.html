@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./identity.css">
+    <title>인격 도감</title>
+</head>
+<body>
+
+    <header>
+        <button id="back-btn">← 뒤로 가기</button>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="검색">
+        </div>
+    </header>
+
+    <main>
+        <div id="card-container"></div>
+    </main>
+
+    <div id="info-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            
+            <div class="modal-header">
+                <img id="modal-img" src="" alt="인격 이미지">
+                <div class="modal-title">
+                    <h2 id="modal-name">인격 이름</h2>
+                    <p id="modal-affil">
+                    <div id="modal-keywords"></div>
+                </div>
+            </div>
+
+            <div class="modal-body" id="modal-details">
+            </div>
+        </div>
+    </div>
+    <script src="identity.js"></script>
+</body>
+</html>
