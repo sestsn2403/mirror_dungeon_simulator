@@ -38,7 +38,7 @@ function renderCards(dataList) {
 
 
         cardDiv.innerHTML = `
-            <img src="${data.img}" alt="${data.name}"">
+            <img src="/identity/${data.img}" alt="${data.name}"">
             <div class="name">${data.name}</div>
         `;
 
