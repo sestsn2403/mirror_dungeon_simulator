@@ -23,18 +23,147 @@ export const traitSynergies = [
     recommendedGifts: [
         {
             name: "피안개",
-            reason: "1번 편성의 위력을 올려주는 핵심 기프트"
+            reason: "1번 편성의 위력을 올려주는 핵심 기프트",
+            img: "../ego-gift/images/bleed44.webp"
         },
         {
             name: "출혈성 쇼크",
-            reason: "출혈 발동을 보조하기 좋음"
+            reason: "출혈 발동을 보조하기 좋음",
+            img: "../ego-gift/images/bleed45.webp"
         }
     ],
 
     recommendedPacks: [
         {
             name: "출혈 테마팩",
-            reason: "출혈 관련 E.G.O 기프트를 확보하기 좋음"
+            reason: "출혈 관련 E.G.O 기프트를 확보하기 좋음",
+            img: "../Event_Ego/assets/Theme_Pack/다시열린라만차랜드.png"
+        }
+    ]
+},
+{
+    name: "거미집",
+    type: "traits",
+    requiredCount: 4,
+    desc: "거미집 소속 인격 4명 이상 편성 시 거미집 시너지 활성화",
+
+    supportList: [
+        15,
+        30,
+        44,
+        59,
+        68,
+        88,
+        90,
+        117,
+        118,
+        147,
+        154,
+        172
+    ],
+
+    recommendedGifts: [
+        {
+            name: "붉게 얽힌 거미집",
+            reason: "료슈 1인 클리어를 도와주는 기프트",
+            img: "../ego-gift/images/nokeyword74.webp"
+        },
+        {
+            name: "강요된 무게",
+            reason: "료슈 1인 클리어를 도와주는 기프트",
+            img: "../ego-gift/images/nokeyword53.webp"
+        }
+    ],
+
+    recommendedPacks: [
+        {
+            name: "거미집 테마팩",
+            reason: "붉게 얽힌 거미집을 획득할 수 있음",
+            img: "../Event_Ego/assets/Theme_Pack/검과작품.png"
+        }
+    ]
+},
+{
+    name: "흑수",
+    type: "traits",
+    requiredCount: 4,
+    desc: "흑수 인격 4명 이상 편성 시 흑수 시너지 활성화",
+
+    supportList: [
+        14,
+        27,
+        43,
+        55,
+        60,
+        87,
+        102,
+        115,
+        129,
+        146,
+        159,
+        173
+    ],
+
+    recommendedGifts: [
+        {
+            name: "마음을 닫는 붉은 천",
+            reason: "홍원 군주 홍루를 강화하고 순환을 돕는 기프트",
+            img: "../ego-gift/images/slash12.webp"
+        },
+        {
+            name: "황홀경",
+            reason: "흑수들의 파열 디버프를 유지시켜주는 합성 기프트",
+            img: "../ego-gift/images/rupturee32.webp"
+        }
+    ],
+
+    recommendedPacks: [
+        {
+            name: "절차탁춘",
+            reason: "흑수들과 군주를 위한 에고 기프트의 다수 포진",
+            img: "../Event_Ego/assets/Theme_Pack/절차탁춘.png"
+        }
+    ]
+},
+{
+    name: "W사",
+    type: "traits",
+    requiredCount: 4,
+    desc: "W사 인격 4명 이상 편성 시 W사 시너지 활성화",
+
+    supportList: [
+        9,
+        17,
+        36,
+        52,
+        65,
+        78,
+        101,
+        107,
+        127,
+        143,
+        157,
+        176
+    ],
+
+    recommendedGifts: [
+        {
+            name: "C형 정리 요원 장비 세트",
+            reason: "W사 전체를 강화하고 안정성도 주는 기프트",
+            img: "../ego-gift/images/charge36.webp"
+        },
+        {
+            name: "충전형 장갑",
+            reason: "충전 횟수의 한계치를 뚫어주고 매 턴마다 충전을 지급하는 기프트",
+            img: "../ego-gift/images/charge29.webp"
+        }
+    ],
+
+    recommendedPacks: [
+        {
+            name: "워프특급 살인사건",
+            reason: "W사 인격들과 충전 인격들을 위한 조합 에깊 재료 수집 가능",
+            img: "../Event_Ego/assets/Theme_Pack/워프특급살인사건.png"
         }
     ]
 }

@@ -98,8 +98,17 @@ export class AppView {
         this.recommendedGiftList.innerHTML = gifts.length > 0
             ? gifts.map(gift => `
                 <div class="recommended-gift">
-                    <strong>${gift.name}</strong>
-                    <div>${gift.reason}</div>
+                    ${gift.img ? `
+                        <img class="recommended-gift-img"
+                            src="${gift.img}"
+                            alt="${gift.name}"
+                            onerror="this.style.display='none'">
+                    ` : ''}
+
+                    <div class="recommended-gift-text">
+                        <strong>${gift.name}</strong>
+                        <div>${gift.reason}</div>
+                    </div>
                 </div>
             `).join('')
             : `<div class="empty-synergy">추천 E.G.O 기프트가 없습니다.</div>`;

@@ -18,10 +18,13 @@
         .app-layout {
                 width: 100vw;
                 height: 100vh;
-                padding: 16px;
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
+                padding: 8px;
+
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                grid-template-rows: 1fr 150px;
+                gap: 12px;
+
                 background: #201a17;
                 overflow: hidden;
         }
@@ -36,12 +39,18 @@
 }
 
         .left-panel {
+            grid-column: 1;
+            grid-row: 1;
+
             min-width: 0;
+            min-height: 0;
+
             background: #2b2522;
             border: 1px solid #4b3b30;
             border-radius: 10px;
             padding: 16px;
             overflow: hidden;
+
             display: flex;
             flex-direction: column;
             gap: 14px;
@@ -106,12 +115,15 @@
             color: #111;
         }
 
-        .left-recommend-area {
+        .bottom-recommend-area {
+            grid-column: 1;
+            grid-row: 2;
+
+            min-height: 0;
+
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 12px;
-            min-height: 130px;
-            flex-shrink: 0;
         }
 
         .gift-box,
@@ -201,12 +213,18 @@
         }
 
         .right-panel {
+            grid-column: 2;
+            grid-row: 1 / 3;
+
             min-width: 320px;
+            min-height: 0;
+
             background: #2b2522;
             border: 1px solid #4b3b30;
             border-radius: 10px;
             padding: 16px;
             overflow-y: auto;
+
             display: flex;
             flex-direction: column;
             gap: 16px;
@@ -305,9 +323,15 @@
 
         .recommended-gift,
         .recommended-pack {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
             padding: 8px;
             margin-bottom: 8px;
             border-radius: 6px;
+            background: #33281f;
+            border: 1px solid #5f4a3a;
             font-size: 13px;
             line-height: 1.4;
         }
@@ -318,6 +342,27 @@
         }
 
         .recommended-gift strong {
+            display: block;
+            margin-bottom: 4px;
+            color: #f0c35a;
+        }
+
+        .recommended-gift-img {
+            width: 46px;
+            height: 46px;
+            object-fit: contain;
+            flex-shrink: 0;
+
+            background: #111;
+            border: 1px solid #5f4a3a;
+            border-radius: 4px;
+        }
+
+        .recommended-gift-text {
+            min-width: 0;
+        }
+
+        .recommended-gift-text strong {
             display: block;
             margin-bottom: 4px;
             color: #f0c35a;
@@ -402,42 +447,36 @@
 <body>
 <div class="app-layout">
 
-    <div class="top-layout">
+    <section class="left-panel">
+        <div class="left-header">
+            <h2>수감자 선택</h2>
+            <input type="text" id="search-input" placeholder="인격 이름, 키워드, 소속 검색...">
+        </div>
 
-        <section class="left-panel">
-            <div class="left-header">
-                <h2>수감자 선택</h2>
-                <input type="text" id="search-input" placeholder="인격 이름, 키워드, 소속 검색...">
-            </div>
+        <div class="sinner-scroll-box">
+            <div id="sinner-filters" class="sinner-button-list"></div>
+        </div>
 
-            <div class="sinner-scroll-box">
-                <div id="sinner-filters" class="sinner-button-list"></div>
-            </div>
+        <div id="picker-grid" class="card-grid"></div>
+    </section>
 
-            <div id="picker-grid" class="card-grid"></div>
-        </section>
+    <aside class="right-panel">
+        <div class="synergy-box">
+            <h2>활성화 시너지</h2>
+            <div id="synergy-list"></div>
+        </div>
 
-        <aside class="right-panel">
-            <div class="synergy-box">
-                <h2>활성화 시너지</h2>
-                <div id="synergy-list"></div>
-            </div>
+        <div class="team-box">
+            <h2>현재 팀</h2>
+            <div class="team-count-text">메인 7명 / 서포트 5명</div>
 
-            <div class="team-box">
-                <h2>현재 팀</h2>
-                <div class="team-count-text">
-                    메인 7명 / 서포트 5명
-                </div>
+            <div id="team-image-grid" class="team-image-grid"></div>
 
-                <div id="team-image-grid" class="team-image-grid"></div>
-
-                <button id="reset-team-btn" class="reset-team-btn">
-                    팀 초기화
-                </button>
-            </div>
-        </aside>
-
-    </div>
+            <button id="reset-team-btn" class="reset-team-btn">
+                팀 초기화
+            </button>
+        </div>
+    </aside>
 
     <section class="bottom-recommend-area">
         <div class="gift-box">

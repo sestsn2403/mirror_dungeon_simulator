@@ -6198,7 +6198,7 @@
         "id": 59,
         "sinner": "료슈",
         "name": "거미집의 검 료슈",
-        "affiliation": ["소지","거미집"],
+        "affiliation": ["소지", "거미집"],
         "keywords": [
             "화상",
             "출혈",
@@ -9253,7 +9253,7 @@
         "id": 88,
         "sinner": "홍루",
         "name": "거미집 약지 아비 홍루",
-        "affiliation": ["약지","거미집"],
+        "affiliation": ["약지", "거미집"],
         "keywords": [
             "화상",
             "출혈",
@@ -12283,7 +12283,7 @@
         "id": 117,
         "sinner": "이스마엘",
         "name": "거미집 중지 제자 이스마엘",
-        "affiliation": ["중지","거미집"],
+        "affiliation": ["중지", "거미집"],
         "keywords": [
             "화상",
             "출혈"
@@ -15387,7 +15387,7 @@
         "id": 147,
         "sinner": "싱클레어",
         "name": "거미집 소지 제자 싱클레어",
-        "affiliation": ["소지","거미집"]
+        "affiliation": ["소지", "거미집"],
         "keywords": [
             "출혈",
             "호흡"
