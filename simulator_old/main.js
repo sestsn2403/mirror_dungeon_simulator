@@ -8,46 +8,22 @@ const view = new AppView();
 
 let currentSinner = null;
 let currentSearch = "";
-let selectedSynergyName = null;
 
 async function init() {
     await manager.load();
     update();
 
+    // 통합 이벤트 리스너
     document.addEventListener('click', e => {
         if (e.target.dataset.sinner) {
-            currentSinner = currentSinner === e.target.dataset.sinner
-                ? null
-                : e.target.dataset.sinner;
-
+            currentSinner = currentSinner === e.target.dataset.sinner ? null : e.target.dataset.sinner;
             update();
-            return;
         }
-
         const card = e.target.closest('.card');
-
         if (card) {
             const id = manager.all.find(i => i.id == card.dataset.id);
-
             deck.updateDeck(id, manager.all);
-            selectedSynergyName = null;
-
             update();
-            return;
-        }
-
-        const synergyButton = e.target.closest('.synergy-btn');
-
-        if (synergyButton) {
-            selectedSynergyName = synergyButton.dataset.synergy;
-
-            const selectedSynergy = deck.getActiveSynergies()
-                .find(s => s.name === selectedSynergyName);
-
-            deck.generateAutoSub(manager.all, selectedSynergy);
-
-            update();
-            return;
         }
     });
 
@@ -55,17 +31,11 @@ async function init() {
         currentSearch = e.target.value;
         update();
     });
-
-    document.getElementById('reset-team-btn').addEventListener('click', () => {
-        deck.resetDeck();
-        selectedSynergyName = null;
-        update();
-    });
 }
 
 function update() {
     const filtered = manager.filter(currentSinner, currentSearch);
-    view.render(filtered, deck, currentSinner, manager.sinners, selectedSynergyName);
+    view.render(filtered, deck, currentSinner, manager.sinners);
 }
 
 init();

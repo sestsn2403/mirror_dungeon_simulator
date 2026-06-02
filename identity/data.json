@@ -1402,7 +1402,8 @@
         "id": 15,
         "sinner": "이상",
         "name": "거미집 검지 아비 이상",
-        "affiliation": "검지",
+        "affiliation": ["검지", "거미집"],
+        
         "keywords": [
             "화상",
             "침잠",
@@ -3001,7 +3002,7 @@
         "id": 30,
         "sinner": "파우스트",
         "name": "거미집 약지 제자 파우스트",
-        "affiliation": "약지",
+        "affiliation": ["약지","거미집"],
         "sim_keyword": [],
         "keywords": [
             "출혈",
@@ -4565,7 +4566,7 @@
         "id": 44,
         "sinner": "돈키호테",
         "name": "검지 대행자 - 개화 E.G.O::대행 돈키호테",
-        "affiliation": "검지",
+        "affiliation": ["검지","거미집"],
         "keywords": [
             "침잠",
             "호흡"
@@ -6197,7 +6198,7 @@
         "id": 59,
         "sinner": "료슈",
         "name": "거미집의 검 료슈",
-        "affiliation": "소지",
+        "affiliation": ["소지", "거미집"],
         "keywords": [
             "화상",
             "출혈",
@@ -9252,7 +9253,7 @@
         "id": 88,
         "sinner": "홍루",
         "name": "거미집 약지 아비 홍루",
-        "affiliation": "약지",
+        "affiliation": ["약지", "거미집"],
         "keywords": [
             "화상",
             "출혈",
@@ -12282,7 +12283,7 @@
         "id": 117,
         "sinner": "이스마엘",
         "name": "거미집 중지 제자 이스마엘",
-        "affiliation": "중지",
+        "affiliation": ["중지", "거미집"],
         "keywords": [
             "화상",
             "출혈"
@@ -15386,7 +15387,7 @@
         "id": 147,
         "sinner": "싱클레어",
         "name": "거미집 소지 제자 싱클레어",
-        "affiliation": "소지",
+        "affiliation": ["소지", "거미집"],
         "keywords": [
             "출혈",
             "호흡"

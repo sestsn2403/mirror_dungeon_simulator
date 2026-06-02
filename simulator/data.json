@@ -1,6 +1,187 @@
 [
-    { "id": 1, "sinner": "이상", "name": "동백 이상", "keywords": ["침잠"], "img": "./assets/id_1.png" },
-    { "id": 2, "sinner": "이상", "name": "약지 점묘파", "keywords": ["출혈"], "img": "./assets/id_2.png" },
-    { "id": 3, "sinner": "파우스트", "name": "쥐는 자", "keywords": ["출혈", "화상"], "img": "./assets/id_3.png" },
-    { "id": 4, "sinner": "파우스트", "name": "W사 정리요원", "keywords": ["충전"], "img": "./assets/id_4.png" }
-  ]
+    {
+        "id": 2001,
+        "sinner": "이상",
+        "name": "동백 이상",
+        "keywords": [
+            "침잠"
+        ],
+        "traits": [
+            "침잠",
+            "동백"
+        ],
+        "img": "../identity/assets/card/1.png"
+    },
+    {
+        "id": 2,
+        "sinner": "이상",
+        "name": "약지 점묘파",
+        "keywords": [
+            "출혈"
+        ],
+        "traits": [
+            "출혈",
+            "약지"
+        ],
+        "img": "./assets/id_2.png"
+    },
+    {
+        "id": 3,
+        "sinner": "파우스트",
+        "name": "쥐는 자",
+        "keywords": [
+            "출혈",
+            "화상"
+        ],
+        "traits": [
+            "출혈",
+            "화상",
+            "N사"
+        ],
+        "img": "./assets/id_3.png"
+    },
+    {
+        "id": 4,
+        "sinner": "파우스트",
+        "name": "W사 정리요원",
+        "keywords": [
+            "충전"
+        ],
+        "traits": [
+            "충전",
+            "W사"
+        ],
+        "img": "./assets/id_4.png"
+    },
+    {
+        "id": 5,
+        "sinner": "돈키호테",
+        "name": "W사 정리요원 돈키호테",
+        "keywords": [
+            "충전"
+        ],
+        "traits": [
+            "충전",
+            "W사"
+        ],
+        "img": "./assets/id_5.png"
+    },
+    {
+        "id": 6,
+        "sinner": "료슈",
+        "name": "료슈 리우 협회",
+        "keywords": [
+            "화상"
+        ],
+        "traits": [
+            "화상",
+            "리우 협회"
+        ],
+        "img": "./assets/id_6.png"
+    },
+    {
+        "id": 7,
+        "sinner": "뫼르소",
+        "name": "뫼르소 리우 협회",
+        "keywords": [
+            "화상"
+        ],
+        "traits": [
+            "화상",
+            "리우 협회"
+        ],
+        "img": "./assets/id_7.png"
+    },
+    {
+        "id": 8,
+        "sinner": "홍루",
+        "name": "홍루 리우 협회",
+        "keywords": [
+            "화상"
+        ],
+        "traits": [
+            "화상",
+            "리우 협회"
+        ],
+        "img": "./assets/id_8.png"
+    },
+    {
+        "id": 9,
+        "sinner": "히스클리프",
+        "name": "R사 히스클리프",
+        "keywords": [
+            "충전",
+            "호흡"
+        ],
+        "traits": [
+            "충전",
+            "R사"
+        ],
+        "img": "./assets/id_9.png"
+    },
+    {
+        "id": 10,
+        "sinner": "이스마엘",
+        "name": "흑운회 이스마엘",
+        "keywords": [
+            "출혈"
+        ],
+        "traits": [
+            "출혈",
+            "흑운회"
+        ],
+        "img": "./assets/id_10.png"
+    },
+    {
+        "id": 11,
+        "sinner": "로쟈",
+        "name": "N사 로쟈",
+        "keywords": [
+            "출혈"
+        ],
+        "traits": [
+            "출혈",
+            "N사"
+        ],
+        "img": "./assets/id_11.png"
+    },
+    {
+        "id": 12,
+        "sinner": "싱클레어",
+        "name": "리우 싱클레어",
+        "keywords": [
+            "화상"
+        ],
+        "traits": [
+            "화상",
+            "리우 협회"
+        ],
+        "img": "./assets/id_12.png"
+    },
+    {
+        "id": 13,
+        "sinner": "오티스",
+        "name": "W사 오티스",
+        "keywords": [
+            "충전"
+        ],
+        "traits": [
+            "충전",
+            "W사"
+        ],
+        "img": "./assets/id_13.png"
+    },
+    {
+        "id": 14,
+        "sinner": "그레고르",
+        "name": "G사 그레고르",
+        "keywords": [
+            "파열"
+        ],
+        "traits": [
+            "파열",
+            "G사"
+        ],
+        "img": "./assets/id_14.png"
+    }
+]
